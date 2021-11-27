@@ -5,7 +5,7 @@ import TopButton from '../../components/TopButton/TopButton';
 function NoEmail() {
     return (
         <>
-            <div className="historiesInfoHeaderContainer">
+            <div className="emailInfoHeaderContainer">
                 <div className="heightBar"></div>
                 <span className="listTitle">이메일 무단수집거부</span>
             </div>
@@ -16,7 +16,10 @@ function NoEmail() {
             <div className="e_container">
                 <div className="e_containerBox">
                     <img
-                        src="http://ilasskorea.org/inc/application/dubu_policy/skin/s150319001001/images/img_email_refusal.png"
+                        src={
+                            require('../../assets/img_email_refusal.png')
+                                .default
+                        }
                         className="noEmail_img"
                     ></img>
                     <p className="e_contents">

@@ -7,6 +7,31 @@
     padding: 2px;
     font-weight: bold;
 }
+
+.emailInfoHeaderContainer {
+    margin-left: 17%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emailInfoHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.emailInfoHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
 .e_title {
     margin-left: 13px;
 }
@@ -31,7 +56,7 @@
 }
 /*noEmail img 크기 및 위치 설정*/
 .noEmail_img {
-    width: 15%;
+    width: 10%;
     margin-top: 10px;
     margin-right: 20px;
     float: left;

@@ -17,7 +17,7 @@ const RecordDetailSpecialOldParentsMinyeong = () => {
     useEffect(() => {
         const allRecords = recordsStore.getAllRecords.data;
         const speOldParMin =
-            allRecords?.verificationOfSpecialMinyeongOldParentsResponseDtos;
+            allRecords?.verificationOfSpecialMinyeongOldParentResponseDtos;
 
         if (allRecords) {
             if (speOldParMin) {

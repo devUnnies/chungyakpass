@@ -106,3 +106,28 @@
     margin-top: 10px;
     padding: 5px 60px 5px 10px;
 }
+
+.sitemapInfoHeaderContainer {
+    margin-left: 17%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sitemapInfoHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.sitemapInfoHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
