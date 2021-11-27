@@ -1,0 +1,135 @@
+/* SeeAssets.js */
+.assetsInfoContainer {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.assetsInfoHeaderContainer {
+    margin-left: 17%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.assetsInfoHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.assetsInfoHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+.assetsInfoContainer .tableContainer {
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.assetsInfoThead {
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-collapse: collapse;
+    background-color: #e5e8ed;
+}
+
+.assetsInfoThead > .assetsInfoTheadTrTh {
+    width: 20px;
+}
+
+.assetsInfoTheadTrTh {
+}
+
+.assetsInfoTbodyTr {
+    text-align: center;
+}
+
+.assetsInfoTbodyTrTd {
+    width: 120px;
+    white-space: pre-wrap;
+}
+
+.assetsInfoTrTdAdd {
+    height: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.assetsInfoContainer .buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+}
+
+.assetsInfoContainer .buttonContainer .addButtonContainer {
+    height: 50px;
+}
+
+.assetsInfoContainer .buttonContainer .addButton {
+    display: block;
+    text-align: center;
+    font-size: 250%;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+.assetsInfoContainer .buttonContainer .submitButtonContainer {
+    height: 50px;
+}
+
+.assetsInfoContainer .buttonContainer .submitButton {
+    display: block;
+    text-align: center;
+    font-size: 250%;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+.modifyContainer {
+}
+
+.assetsInfoContainer .modifyColor {
+    color: #2a4476;
+}
+
+.deleteContainer {
+}
+
+.assetsInfoContainer .deleteContainer {
+    color: #2a4476;
+}
+
+/* AddAsset.js */
+.addAssetFormContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.addAssetForm {
+}
+
+.addAssetFormTable {
+}
+
+.addAssetFormTableTbody {
+}

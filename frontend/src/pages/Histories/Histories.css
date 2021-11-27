@@ -1,0 +1,267 @@
+/* SeeHistories.js */
+.historiesInfoContainer {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.historiesInfoHeaderContainer {
+    margin-left: 17%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.historiesInfoHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.historiesInfoHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+.historiesInfoContainer .tableContainer {
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.historiesInfoThead {
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-collapse: collapse;
+    background-color: #e5e8ed;
+}
+
+.historiesInfoThead > .historiesInfoTheadTrTh {
+    width: 20px;
+}
+
+.historiesInfoTheadTrTh {
+}
+
+.historiesInfoTbodyTr {
+    text-align: center;
+}
+
+.historiesInfoTbodyTrTd {
+    width: 120px;
+    white-space: pre-wrap;
+}
+
+.historiesInfoTrTdAdd {
+    height: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.historiesInfoTbodyTrTd .deleteColor {
+    color: #2a4476;
+}
+
+.historiesInfoContainer .buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+}
+
+.historiesInfoContainer .buttonContainer .addButtonContainer {
+    height: 50px;
+}
+
+.historiesInfoContainer .buttonContainer .addButton {
+    display: block;
+    text-align: center;
+    font-size: 250%;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+.historiesInfoContainer .buttonContainer .submitButtonContainer {
+    height: 50px;
+}
+
+.historiesInfoContainer .buttonContainer .submitButton {
+    display: block;
+    text-align: center;
+    font-size: 250%;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+/* AddHistory.js */
+.addHistoryFormContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.addHistoryFormTableTbodyTrTdTooltip {
+    display: flex;
+    flex-direction: 'row';
+    width: fit-content;
+}
+
+.addHistoryFormTableTbodyTrTdSubTitle {
+    text-align: right;
+    padding-right: 15px;
+    width: 150px;
+}
+
+.subTitle {
+    font-family: Noto Sans;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.tooltipIcon {
+    font-weight: bold;
+    color: #2a4476;
+    margin-left: 5px;
+}
+
+.addHistoryFormTableTbodyTrSpace {
+    height: 20px;
+}
+
+.houseNameInput {
+    border-width: 1px;
+}
+
+.houseTypeInput {
+    border-width: 1px;
+}
+
+/* ModHistory.js */
+.modHistoryFormContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.modHistoryFormTableTbodyTrTdTooltip {
+    display: flex;
+    flex-direction: 'row';
+    width: fit-content;
+}
+
+.modHistoryFormTableTbodyTrTdSubTitle {
+    text-align: right;
+    padding-right: 15px;
+    width: 150px;
+}
+
+.subTitle {
+    font-family: Noto Sans;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.tooltipIcon {
+    font-weight: bold;
+    color: #2a4476;
+    margin-left: 5px;
+}
+
+.modHistoryFormTableTbodyTrSpace {
+    height: 20px;
+}
+
+.houseNameInput {
+    border-width: 1px;
+}
+
+.houseTypeInput {
+    border-width: 1px;
+}
+
+/* 저장버튼 */
+.addHistoryInfo .saveButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.addHistoryInfo .save {
+    width: 80px;
+    padding: 10px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #2a4476;
+    cursor: pointer;
+}
+
+/* AddLimit.js */
+.addLimitFormContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.addLimitFormTableTbodyTrTdTooltip {
+    display: flex;
+    flex-direction: 'row';
+    width: fit-content;
+}
+
+.addLimitFormTableTbodyTrTdSubTitle {
+    text-align: right;
+    padding-right: 15px;
+    width: 150px;
+}
+
+.addLimitFormTableTbodyTrSpace {
+    height: 20px;
+}
+
+/* 저장버튼 */
+.addHistoryFormTableTbodyTrTd .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: -15px;
+    margin-bottom: 20px;
+}
+
+.addLimitInfo .save {
+    width: 80px;
+    padding: 10px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #2a4476;
+    cursor: pointer;
+}
+
+.backButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+}

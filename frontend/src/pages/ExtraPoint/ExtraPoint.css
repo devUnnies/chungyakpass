@@ -1,0 +1,277 @@
+/* 아파트 공고번호 페이지 */
+.numberInfoHeaderContainer {
+    margin-left: 40%;
+}
+.apt_titleIcon {
+    font-size: 20pt;
+    font-weight: bolder;
+    color: #2a4476;
+    margin-right: 10px;
+    margin-top: 5%;
+}
+.apt_title {
+    margin-left: 1%;
+    font-size: 15pt;
+    color: #2a4476;
+    letter-spacing: 2px;
+}
+.apt_subTitle {
+    font-size: 12pt;
+    color: black;
+    letter-spacing: 1px;
+}
+.pointAptNumForm {
+    margin-bottom: 10%;
+}
+.pointAptNumContainer {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 38%;
+    width: 15%;
+}
+.pointAptNumInput {
+    width: 140%;
+    height: 18%;
+    margin: 3%;
+    padding: 5%;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10pt;
+}
+
+/* aptNum 페이지 입력 값 */
+.paramSelectInput {
+    margin-left: 10px;
+}
+.selectInputText {
+    margin-left: 8px;
+}
+/* 이전, 다음 버튼 디자인 및 위치 조정 */
+.buttonContainer {
+    width: 300px;
+    margin-left: 42%;
+}
+.buttonPosition {
+    margin-left: 5px;
+}
+.aptBackButton {
+    margin-top: 10%;
+
+    border: none;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: var(--button-font-size, 14px);
+    color: var(--button-color, #2a4476);
+    background: var(--button-bg-color, rgba(0, 0, 0, 0));
+    cursor: pointer;
+}
+.aptBackButton:active,
+.aptBackButton:hover,
+.aptBackButton:focus {
+    color: var(--button-color, #e3e3e3);
+}
+.aptNextButton {
+    margin-top: 10%;
+    width: 90px;
+    height: 35px;
+
+    border: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: var(--button-font-size, 14px);
+    border-radius: var(--button-radius, 30px);
+    color: var(--button-color, #ffffff);
+    background: var(--button-bg-color, #2a4476);
+    cursor: pointer;
+    flex: none;
+    flex-grow: 0;
+    margin: 10px;
+}
+
+.aptNextButton:active,
+.aptNextButton:hover,
+.aptNextButton:focus {
+    background: var(--button-hover-bg-color, #8097c2);
+}
+
+/* 일반 민영, 노부모 민영 paramSelect table */
+table.pointTable {
+    border: 0;
+    width: 500px;
+    text-align: left;
+}
+.paramSelect {
+    width: 500px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 14pt;
+}
+
+/* point_title */
+/* general_title */
+.point_title {
+    margin-left: 25%;
+}
+.point_mainTitle {
+    color: #000;
+    font-size: 18pt;
+    letter-spacing: 2px;
+}
+.point_subTitle {
+    font-size: 15pt;
+}
+.point_subPlusTitle {
+    margin-top: 1.5%;
+    text-align: left;
+    font-size: 12pt;
+    color: black;
+    letter-spacing: 2px;
+}
+
+/*container 공간 확보*/
+.point_form {
+    width: 80%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+/*특별공급 자격확인 테이블*/
+.point_phase {
+    position: relative;
+    margin-top: 10%;
+}
+/* 가점 테이블 */
+.point_table {
+    margin-top: 5%;
+    margin-left: 25%;
+
+    width: 60%;
+}
+
+/* 조건간 간격 조정 */
+td.point_qualification,
+td.point_result {
+    z-index: 100;
+    padding-bottom: 5%;
+    font-size: 14pt;
+}
+td.point_qualification {
+    width: 350px;
+}
+/* input text box 테두리 보이지 않도록. */
+td.point_result {
+    z-index: 100;
+    width: 30px;
+    border: 0;
+}
+
+/*자격 조건 상세 말풍선*/
+.info_tooltip {
+    z-index: 200;
+    margin: 10px;
+    color: #2a4476;
+    background-color: white;
+}
+/*자격조건 상세 내부*/
+.tooltip-text {
+    z-index: 200;
+    margin: 10px;
+
+    color: #2a4476;
+    font-size: 12pt;
+    animation: 0.6s ease-in-out loadEffect2;
+}
+
+@keyframes loadEffect2 {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.tooltip-text {
+    display: none;
+    position: absolute;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px;
+
+    font-size: 0.8em;
+    color: black;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.info_tooltip:hover .tooltip-text {
+    display: block;
+}
+
+/* 결과 */
+hr.sum_hr {
+    width: 62%;
+    margin-left: 23.5%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #2a4476;
+}
+.pointRes {
+    width: 62%;
+    margin-top: 4%;
+    margin-left: 25%;
+}
+.sumPlusIcon {
+    margin-left: 1%;
+    font-size: 25pt;
+    text-align: left;
+    color: #2a4476;
+}
+.sumRes {
+    margin-left: 69%;
+}
+.sum_text {
+    font-size: 20pt;
+}
+.pointSum {
+    margin: 10px;
+
+    font-weight: 600;
+    font-size: 40pt;
+    color: #2a4476;
+}
+
+/* 가점표 확인 테이블 */
+.pointTableContainer {
+    margin-top: 2%;
+    margin-left: 30%;
+}
+.point-table-icon {
+    color: red;
+}
+.pointCheck {
+    margin-bottom: 10px;
+}
+.pointTable {
+    width: 100%;
+    margin-bottom: 3%;
+    border-collapse: collapse;
+    border: 1px solid gainsboro;
+}
+.point-table-header {
+    padding: 8px;
+    background-color: var(--button-bg-color, #2a4476);
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.pointTable tr,
+.pointTable td {
+    padding: 5px;
+}
+td.point-text-align {
+    text-align: center;
+}

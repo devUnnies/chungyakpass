@@ -1,0 +1,151 @@
+:root {
+    /* dark shades of primary color*/
+    --clr-primary-1: hsl(205, 86%, 17%);
+    --clr-primary-2: hsl(205, 77%, 27%);
+    --clr-primary-3: hsl(205, 72%, 37%);
+    --clr-primary-4: hsl(205, 63%, 48%);
+    /* primary/main color */
+    --clr-primary-5: hsl(205, 78%, 60%);
+    /* lighter shades of primary color */
+    --clr-primary-6: hsl(205, 89%, 70%);
+    --clr-primary-7: hsl(205, 90%, 76%);
+    --clr-primary-8: hsl(205, 86%, 81%);
+    --clr-primary-9: hsl(205, 90%, 88%);
+    --clr-primary-10: hsl(205, 100%, 96%);
+    /* darkest grey - used for headings */
+    --clr-grey-1: hsl(209, 61%, 16%);
+    --clr-grey-2: hsl(211, 39%, 23%);
+    --clr-grey-3: hsl(209, 34%, 30%);
+    --clr-grey-4: hsl(209, 28%, 39%);
+    /* grey used for paragraphs */
+    --clr-grey-5: hsl(210, 22%, 49%);
+    --clr-grey-6: hsl(209, 23%, 60%);
+    --clr-grey-7: hsl(211, 27%, 70%);
+    --clr-grey-8: hsl(210, 31%, 80%);
+    --clr-grey-9: hsl(212, 33%, 89%);
+    --clr-grey-10: hsl(210, 36%, 96%);
+
+    /* box shadow 적용. */
+    --clr-black: #222;
+    --transition: all 0.3s linear;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* faq 박스 위치 배치*/
+.faq_container .info {
+    margin-top: 20%;
+}
+
+.faqInfoHeaderContainer {
+    margin-left: 17%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.faqInfoHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.faqInfoHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+/* faq_title */
+.faq_title {
+    margin-left: 20%;
+    margin-top: 5%;
+
+    border-left: 5px solid #2a4476;
+    padding: 2px;
+    font-weight: bold;
+}
+.faq_mainTitle {
+    margin-left: 13px;
+    font-size: 18pt;
+    color: #000;
+    letter-spacing: 1px;
+}
+.faq_subTitle {
+    color: hsl(209, 28%, 39%);
+    font-size: 10pt;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    margin-left: 5px;
+}
+
+.faq_container {
+    border-radius: var(--radius);
+    height: 1300px; /* faq 자리 확보 */
+}
+
+/* faq 박스 디자인 */
+.question {
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: var(--light-shadow);
+}
+
+/* +, - 버튼 디자인 적용 및 배치 */
+/* 버튼 디자인 적용 */
+.btn {
+    background: transparent;
+    border-color: transparent;
+
+    background: var(--clr-grey-special);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--clr-red-special);
+    cursor: pointer;
+    margin-left: 1rem;
+    align-self: center;
+}
+/* 버튼 가로 배치 */
+.question .faq_Q {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Q 글씨 디자인 적용 및 +, - 버튼 위치 배치*/
+.question_title {
+    font-size: 10pt;
+    font-weight: bold;
+    letter-spacing: 0.5pt;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+
+    cursor: pointer;
+}
+
+/*hr 스타일 적용한 결과 박스 크기 증가함.*/
+.faq_hr {
+    height: 1px;
+    width: 800px;
+    background-color: #2a4476;
+    border-top: 0.5px solid #2a4476;
+    border: 0;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* faq_A */
+.faq_A {
+    font-size: 10pt;
+    color: hsl(209, 34%, 30%);
+    margin-top: 1rem;
+}

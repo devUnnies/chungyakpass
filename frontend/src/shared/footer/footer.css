@@ -1,0 +1,701 @@
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+    /* 로고 관련 */
+    .footer-logo {
+        position: absolute;
+        width: 158px;
+        height: 40px;
+        top: -80%;
+    }
+
+    .footer-logo-container {
+    }
+
+    .footer-logo-image {
+        position: absolute;
+        width: 105px;
+        left: 0%;
+    }
+
+    .footer-logo-name {
+        position: absolute;
+        left: 37%;
+        top: 33%;
+
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+
+        color: #2a4476;
+    }
+
+    /* 프로젝트 인적 정보 관련 */
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: absolute;
+        width: 270px;
+        height: 75px;
+        left: 10%;
+        top: 90px;
+    }
+
+    .address {
+        position: static;
+        height: 15px;
+        left: 0px;
+        right: 0px;
+        top: calc(50% - 15px / 2 - 30px);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: 1;
+        order: 0;
+        flex-grow: 0;
+        margin: 5px 0px;
+        margin-top: 20px;
+    }
+
+    .tel {
+        position: static;
+        height: 15px;
+        top: calc(50% - 15px / 2);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: 1;
+        order: 1;
+        flex-grow: 0;
+        margin: 5px 0px;
+    }
+
+    .email {
+        position: static;
+        height: 15px;
+        top: calc(50% - 15px / 2 + 30px);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: 1;
+        order: 2;
+        flex-grow: 0;
+        margin: 5px 0px;
+    }
+
+    /* 개인정보처리방침, 이메일무단수집거부, 사이트맵 등 정보*/
+    .maps {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: absolute;
+        left: 48%;
+        top: 50px;
+    }
+
+    .personalRule {
+        position: static;
+        height: 15px;
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 30px;
+        margin-bottom: 10px;
+    }
+
+    .noEmail {
+        position: static;
+        height: 15px;
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 30px;
+        margin-bottom: 10px;
+    }
+
+    .sitemap {
+        position: static;
+        height: 15px;
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 30px;
+    }
+
+    /* footer 전체 스타일*/
+
+    .footer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        margin: 0;
+
+        background: #d0d3d9;
+    }
+
+    .copyright {
+        position: absolute;
+        height: 15px;
+        left: 40%;
+        top: calc(50% - 15px / 2 + 107.5px);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1536px) {
+    /* 로고 관련 */
+    .footer-logo {
+        position: absolute;
+        width: 158px;
+        height: 40px;
+        top: -80%;
+    }
+
+    .footer-logo-container {
+    }
+
+    .footer-logo-image {
+        position: absolute;
+        width: 105px;
+    }
+
+    .footer-logo-name {
+        position: absolute;
+        left: 30%;
+        top: 30%;
+
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+
+        color: #2a4476;
+    }
+
+    /* 프로젝트 인적 정보 관련 */
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: absolute;
+        width: 270px;
+        height: 75px;
+        left: 20%;
+        top: 90px;
+    }
+
+    .address {
+        position: static;
+        height: 15px;
+        left: 0px;
+        right: 0px;
+        top: calc(50% - 15px / 2 - 30px);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: 1;
+        order: 0;
+        flex-grow: 0;
+        margin: 15px 0px;
+    }
+
+    .tel {
+        position: static;
+        height: 15px;
+        top: calc(50% - 15px / 2);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: 1;
+        order: 1;
+        flex-grow: 0;
+        margin: 15px 0px;
+    }
+
+    .email {
+        position: static;
+        height: 15px;
+        top: calc(50% - 15px / 2 + 30px);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: 1;
+        order: 2;
+        flex-grow: 0;
+        margin: 15px 0px;
+    }
+
+    /* 개인정보처리방침, 이메일무단수집거부, 사이트맵 등 정보*/
+    .maps {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: absolute;
+        left: 60%;
+        top: 50px;
+    }
+
+    .personalRule {
+        position: static;
+        height: 15px;
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 30px;
+        margin-bottom: 10px;
+    }
+
+    .noEmail {
+        position: static;
+        height: 15px;
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 30px;
+        margin-bottom: 10px;
+    }
+
+    .sitemap {
+        position: static;
+        height: 15px;
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 30px;
+    }
+
+    /* footer 전체 스타일*/
+
+    .footer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        margin: 0;
+
+        background: #d0d3d9;
+    }
+
+    .copyright {
+        position: absolute;
+        height: 15px;
+        left: 36%;
+        top: calc(50% - 15px / 2 + 107.5px);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 1537px) and (max-width: 1920px) {
+    /* 로고 관련 */
+    .footer-logo {
+        position: absolute;
+        width: 158px;
+        height: 40px;
+        top: -80%;
+    }
+
+    .footer-logo-container {
+    }
+
+    .footer-logo-image {
+        position: absolute;
+        width: 105px;
+    }
+
+    .footer-logo-name {
+        position: absolute;
+        left: 30%;
+        top: 30%;
+
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+
+        color: #2a4476;
+    }
+
+    /* 프로젝트 인적 정보 관련 */
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: absolute;
+        width: 270px;
+        height: 75px;
+        left: 20%;
+        top: 90px;
+    }
+
+    .address {
+        position: static;
+        height: 15px;
+        left: 0px;
+        right: 0px;
+        top: calc(50% - 15px / 2 - 30px);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 15px 0px;
+    }
+
+    .tel {
+        position: static;
+        height: 15px;
+        top: calc(50% - 15px / 2);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 15px 0px;
+    }
+
+    .email {
+        position: static;
+        height: 15px;
+        top: calc(50% - 15px / 2 + 30px);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 15px 0px;
+    }
+
+    /* 개인정보처리방침, 이메일무단수집거부, 사이트맵 등 정보*/
+    .maps {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: absolute;
+        left: 60%;
+        top: 50px;
+    }
+
+    .personalRule {
+        position: static;
+        height: 15px;
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 30px;
+    }
+
+    .noEmail {
+        position: static;
+        height: 15px;
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 30px;
+    }
+
+    .sitemap {
+        position: static;
+        height: 15px;
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 30px;
+    }
+
+    /* footer 전체 스타일*/
+
+    .footer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        margin: 0;
+
+        background: #d0d3d9;
+    }
+
+    .copyright {
+        position: absolute;
+        height: 15px;
+        left: 43%;
+        top: calc(50% - 15px / 2 + 107.5px);
+
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+}

@@ -1,0 +1,164 @@
+.recordsPointInfo {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.recordsPointInfoHeaderContainer {
+    margin-left: 17%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.recordsPointInfoSelectContainer {
+    margin-left: 17%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.recordsPointInfoSelect {
+    margin-right: 10px;
+}
+
+.recordsPointInfoHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.recordsPointInfoHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+.recordsPointInfoTable {
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.recordsPointInfoTableThead {
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-collapse: collapse;
+    background-color: #e5e8ed;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.recordsPointInfoTableTbody {
+}
+
+.recordsPointInfoTableTbodyTr {
+}
+
+.recordsPointInfoTableTbodyTrTd {
+    width: 100px;
+    text-align: center;
+}
+
+.recordsPointInfoTableTbodyTrTdClick {
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* 일반국민 */
+.recordsPointGeneralKookminInfo {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.recordsPointGeneralKookminInfoHeaderContainer {
+    margin-left: 17%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.recordsPointGeneralKookminInfoHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.recordsPointGeneralKookminInfoHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+.recordsPointGeneralKookminInfoTable {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.recordsPointGeneralKookminInfoTableTbody {
+}
+
+.recordsPointGeneralKookminInfoTableTbodyTr {
+}
+
+.recordsPointGeneralKookminInfoTableTbodyTrTd {
+}
+
+.recordsPointGeneralKookminInfoTableTbodyTrTdSubTitle {
+    text-align: center;
+    padding-right: 15px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.recordsPointGeneralKookminButtonContainer {
+    text-align: right;
+    margin-right: 30px;
+}
+
+/* pagination */
+.recordsPointInfoPaginationContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.recordsPointInfoPaginationSpanSame {
+    text-align: center;
+    font-size: 14px;
+    margin-right: 5px;
+    color: #e5e8ed;
+    background-color: #2a4476;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+}
+
+.recordsPointInfoPaginationSpan {
+    text-align: center;
+    font-size: 14px;
+    margin-right: 5px;
+    background-color: #e5e8ed;
+    width: 20px;
+    height: 20px;
+}

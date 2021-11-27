@@ -1,0 +1,62 @@
+.atAGlanceContainer {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.atAGlanceNormalTitleContainer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.atAGlanceNormalTitle {
+    border-left: 3px #2a4476 solid;
+    padding-left: 10px;
+    color: #2a4476;
+    font-family: Noto Sans;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.atAGlanceTableContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.atAGlanceTable {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.atAGlanceTableThead {
+    background-color: #d0d3d9;
+    color: #5d6c8c;
+}
+
+.atAGlanceTableTheadTr {
+    height: 30px;
+}
+
+.atAGlanceTableTheadTrTh {
+    font-size: 16px;
+}
+
+.atAGlanceTableTbody {
+}
+
+.atAGlanceTableTbodyTr {
+    height: 80px;
+}
+
+.atAGlanceTableTbodyTrTd {
+}
+
+.atAGlanceTableTbodyTrTdSubTitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.atAGlanceTableTbodyTrTdResult {
+    text-align: center;
+}

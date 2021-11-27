@@ -1,0 +1,592 @@
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+    .main {
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* 슬라이더 이미지 영역 */
+    /* Slideshow */
+
+    .slideshow {
+        margin: 0 auto;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .slideshowSlider {
+        white-space: nowrap;
+        transition: ease 1000ms;
+    }
+
+    .slide {
+        display: inline-block;
+
+        height: 500px;
+        width: 100%;
+    }
+
+    /* Buttons */
+
+    .slideshowDots {
+        text-align: center;
+    }
+
+    .slideshowDot {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+
+        cursor: pointer;
+        margin: 15px 7px 0px;
+
+        background-color: #c4c4c4;
+    }
+
+    .slideshowDot.active {
+        background-color: #2a4476;
+    }
+
+    /* 로그인 영역 */
+    .loginArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* position: absolute; */
+        width: 200px;
+        height: 250px;
+        margin-left: 10%;
+
+        border: 3px solid #d0d3d9;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .loginArea button {
+        display: flex;
+        /* align-items: flex-start; */
+        text-align: center;
+    }
+
+    .loginArea-loginButton {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .loginArea-signupButton {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    /* 타일 영역 */
+    .tiles {
+        margin-left: 2%;
+    }
+
+    .tiles .title {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+        font-family: Gothic A1;
+        font-weight: bold;
+        font-size: 18px;
+        align-items: center;
+        letter-spacing: -0.1em;
+
+        color: #2a4476;
+    }
+
+    .titleRect {
+        width: 5px;
+        height: 35px;
+
+        background-color: #2a4476;
+        margin-right: 10px;
+    }
+
+    .tile {
+    }
+
+    .firstRow {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .tile1 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/check.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile1Button {
+        position: absolute;
+        top: 205px;
+        left: 205px;
+    }
+
+    .tile2 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/calculator.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile2Button {
+        position: absolute;
+        top: 15px;
+        left: 205px;
+    }
+
+    .secondRow {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .tile3 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/example.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile3Button {
+        position: absolute;
+        top: 205px;
+        left: 20px;
+    }
+
+    .tile4 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/faq.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile4Button {
+        position: absolute;
+        top: 205px;
+        left: 205px;
+    }
+
+    .box {
+        width: 300px;
+        height: 250px;
+
+        background-color: #2a4476;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1536px) {
+    .main {
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* 슬라이더 이미지 영역 */
+    /* Slideshow */
+
+    .slideshow {
+        margin: 0 auto;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .slideshowSlider {
+        white-space: nowrap;
+        transition: ease 1000ms;
+    }
+
+    .slide {
+        display: inline-block;
+
+        height: 500px;
+        width: 100%;
+    }
+
+    /* Buttons */
+
+    .slideshowDots {
+        text-align: center;
+    }
+
+    .slideshowDot {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+
+        cursor: pointer;
+        margin: 15px 7px 0px;
+
+        background-color: #c4c4c4;
+    }
+
+    .slideshowDot.active {
+        background-color: #2a4476;
+    }
+
+    /* 로그인 영역 */
+    .loginArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* position: absolute; */
+        width: 200px;
+        height: 250px;
+        margin-left: 10%;
+
+        border: 3px solid #d0d3d9;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .loginArea button {
+        display: flex;
+        /* align-items: flex-start; */
+        text-align: center;
+    }
+
+    .loginArea-loginButton {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .loginArea-signupButton {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    /* 타일 영역 */
+    .tiles {
+        margin-left: 2%;
+    }
+
+    .tiles .title {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+        font-family: Gothic A1;
+        font-weight: bold;
+        font-size: 18px;
+        align-items: center;
+        letter-spacing: -0.1em;
+
+        color: #2a4476;
+    }
+
+    .titleRect {
+        width: 5px;
+        height: 35px;
+
+        background-color: #2a4476;
+        margin-right: 10px;
+    }
+
+    .tile {
+    }
+
+    .firstRow {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .tile1 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/check.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile1Button {
+        position: absolute;
+        top: 205px;
+        left: 205px;
+    }
+
+    .tile2 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/calculator.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile2Button {
+        position: absolute;
+        /* top: 15px; */
+        left: 205px;
+    }
+
+    .secondRow {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .tile3 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/example.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile3Button {
+        position: absolute;
+        top: 200px;
+        /* left: 15px; */
+    }
+
+    .tile4 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/faq.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile4Button {
+        position: absolute;
+        top: 205px;
+        left: 205px;
+    }
+
+    .box {
+        width: 300px;
+        height: 250px;
+
+        background-color: #2a4476;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1537px) and (max-width: 1920px) {
+    .main {
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* 슬라이더 이미지 영역 */
+    /* Slideshow */
+
+    .slideshow {
+        margin: 0 auto;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .slideshowSlider {
+        white-space: nowrap;
+        transition: ease 1000ms;
+    }
+
+    .slide {
+        display: inline-block;
+
+        height: 500px;
+        width: 100%;
+    }
+
+    /* Buttons */
+
+    .slideshowDots {
+        text-align: center;
+    }
+
+    .slideshowDot {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+
+        cursor: pointer;
+        margin: 15px 7px 0px;
+
+        background-color: #c4c4c4;
+    }
+
+    .slideshowDot.active {
+        background-color: #2a4476;
+    }
+
+    /* 로그인 영역 */
+    .loginArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* position: absolute; */
+        width: 200px;
+        height: 250px;
+        margin-left: 10%;
+
+        border: 3px solid #d0d3d9;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .loginArea button {
+        display: flex;
+        /* align-items: flex-start; */
+        text-align: center;
+    }
+
+    .loginArea-loginButton {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .loginArea-signupButton {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    /* 타일 영역 */
+    .tiles {
+        margin-left: 2%;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+        font-family: Gothic A1;
+        font-weight: bold;
+        font-size: 18px;
+        align-items: center;
+        letter-spacing: -0.1em;
+
+        color: #2a4476;
+    }
+
+    .titleRect {
+        width: 5px;
+        height: 35px;
+
+        background-color: #2a4476;
+        margin-right: 10px;
+    }
+
+    .tile {
+        width: 100%;
+        height: 100%;
+    }
+
+    .firstRow {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .tile1 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/check.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile1Button {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    }
+
+    .tile2 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/calculator.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile2Button {
+        position: absolute;
+        top: 0px;
+        left: 200px;
+    }
+
+    .secondRow {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .tile3 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/example.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile3Button {
+        position: absolute;
+        top: 200px;
+        left: 0px;
+    }
+
+    .tile4 {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        background-image: url('../../assets/tile/faq.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .tile4Button {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    }
+
+    .box {
+        width: 300px;
+        height: 250px;
+
+        background-color: #2a4476;
+        margin: 0;
+    }
+}

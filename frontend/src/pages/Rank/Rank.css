@@ -1,0 +1,138 @@
+/* rank css 적용 */
+.loading_msg1 {
+    margin-top: -13%;
+    margin-left: 6%;
+
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Gothic A1', sans-serif;
+}
+.loading_msg2 {
+    margin-bottom: 5%;
+    margin-left: 6%;
+
+    text-align: center;
+    font-size: 12pt;
+    font-family: 'Gothic A1', sans-serif;
+}
+.RankMain {
+    margin-top: 5%;
+}
+.greetingMessage {
+    margin: 20px;
+
+    font-size: 20pt;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+}
+.addExplanation {
+    margin: 20px;
+
+    font-size: 15pt;
+    text-align: center;
+}
+
+/* 이전, Home 버튼 디자인 및 위치 조정 */
+.rankButtonContainer {
+    width: 300px;
+    margin-left: 76%;
+    margin-bottom: 3%;
+}
+.buttonPosition {
+    margin-left: 5px;
+}
+.aptBackButton {
+    margin-top: 10%;
+
+    border: none;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: var(--button-font-size, 15px);
+    color: var(--button-color, #2a4476);
+    background: var(--button-bg-color, rgba(0, 0, 0, 0));
+    cursor: pointer;
+}
+.aptBackButton:active,
+.aptBackButton:hover,
+.aptBackButton:focus {
+    color: var(--button-color, #e3e3e3);
+}
+.aptNextButton {
+    margin-top: 10%;
+    width: 85px;
+    height: 35px;
+
+    border: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: var(--button-font-size, 15px);
+    border-radius: var(--button-radius, 30px);
+    color: var(--button-color, #ffffff);
+    background: var(--button-bg-color, #2a4476);
+    cursor: pointer;
+    flex: none;
+    flex-grow: 0;
+    margin: 10px;
+}
+
+.aptNextButton:active,
+.aptNextButton:hover,
+.aptNextButton:focus {
+    background: var(--button-hover-bg-color, #8097c2);
+}
+
+/* document css 적용 */
+/* documentTable_title */
+.documentMain {
+    margin-top: 10%;
+    margin-left: 13%;
+}
+.documentTable {
+    width: 85%;
+}
+.document_title {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 16pt;
+    color: #000;
+    letter-spacing: 2px;
+}
+.document_titleIcon {
+    font-size: 18pt;
+    color: #000;
+    margin-right: 10px;
+}
+.document_mainTitle {
+    font-size: 16pt;
+    color: #000;
+    letter-spacing: 1px;
+}
+.documentTable {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border-collapse: collapse;
+    border: 1px solid gainsboro;
+}
+.table-row1,
+.table-text-align,
+.table-text-align1 {
+    text-align: center;
+    padding: 5px;
+}
+.table-header {
+    background-color: var(--button-bg-color, #2a4476);
+    color: white;
+    font-weight: 500;
+
+    padding: 8px;
+}
+.table-row1 {
+    width: 6.5%;
+}
+.table-text-align {
+    width: 14%;
+}
+.table-text-align1 {
+    width: 6.5%;
+}
+.table_li {
+    padding: 1%;
+}

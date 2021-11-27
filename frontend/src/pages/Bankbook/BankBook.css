@@ -1,0 +1,227 @@
+/* AddBankbook.js */
+.addBankbookContainer {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.addBankbookHeaderContainer {
+    margin-left: 30%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.addBankbookHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.addBankbookHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+/* 표 */
+.addBankbookFormTable {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.addBankbookFormTableTbody {
+}
+
+.addBankbookFormTableTbodyTr {
+}
+
+.addBankbookFormTableTbodyTrTd {
+}
+
+.addBankbookFormTableTbodyTrTdError {
+    width: 50px;
+    text-align: left;
+}
+
+/* 제목 */
+.normalTitleContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.normalTitle {
+    border-left: 3px #2a4476 solid;
+    padding-left: 10px;
+    color: #2a4476;
+    font-family: Noto Sans;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.addBankbookFormTableTbodyTrTdSubTitle {
+    text-align: right;
+    padding-right: 15px;
+    width: 150px;
+}
+
+.subTitle {
+    font-family: Noto Sans;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+/* 에러메시지 */
+.failMsg {
+    color: #fa1c33;
+    font-weight: bold;
+}
+
+/* 저장버튼 */
+.addBankbookContainer .saveButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.addBankbookContainer .saveButtonContainer .save {
+    width: 80px;
+    padding: 10px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #2a4476;
+    cursor: pointer;
+}
+
+/* SeeBankbook.js */
+.getBankbookContainer {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.getBankbookHeaderContainer {
+    margin-left: 30%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.getBankbookHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.getBankbookHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+/* 표 */
+.getBankbookTable {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.getBankbookTableTbody {
+}
+
+.getBankbookTableTbodyTr {
+}
+
+.getBankbookTableTbodyTrTd {
+}
+
+.getBankbookTableTbodyTrTdSubTitle {
+    text-align: right;
+    padding-right: 15px;
+    width: 150px;
+}
+
+/* button */
+.getBankbookTableTbodyTrTd .saveButtonContainer {
+    text-align: right;
+}
+.getBankbookTableTbodyTrTd .saveButtonContainer .modify {
+    font-size: 17px;
+    padding-right: 10px;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+.getBankbookTableTbodyTrTd .saveButtonContainer .delete {
+    font-size: 17px;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+/* ModBankbook.js */
+.modBankbookContainer {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.modBankbookHeaderContainer {
+    margin-left: 30%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modBankbookHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.modBankbookHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+/* 표 */
+.modBankbookFormTable {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.modBankbookFormTableTbody {
+}
+
+.modBankbookFormTableTbodyTr {
+}
+
+.modBankbookFormTableTbodyTrTd {
+}
+
+.modBankbookFormTableTbodyTrTdError {
+    width: 50px;
+    text-align: left;
+}

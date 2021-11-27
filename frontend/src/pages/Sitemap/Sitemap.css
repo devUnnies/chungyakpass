@@ -1,0 +1,108 @@
+.Sitemap_main {
+    height: 650px;
+    /* margin-top: 5%; */
+}
+/* 소제목 디자인 적용 */
+.Sitemap_Title {
+    margin-left: 20%;
+    margin-top: 1%;
+
+    border-left: 5px solid #2a4476;
+    padding: 2px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+.s_title {
+    margin-left: 13px;
+}
+.Sitemap_main {
+    height: 650px;
+}
+
+/*사이트맵 container*/
+.s_container {
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-bottom: 15%;
+}
+.s_contents {
+    float: left;
+    margin-right: 30%;
+}
+/*사이트맵 목록번호*/
+.number {
+    color: #2a4476;
+    font-weight: bolder;
+    font-size: 70pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    text-shadow: 5px 3px 3px #c3c3c3;
+    opacity: 0.5;
+
+    float: right;
+}
+.Eng_title {
+    text-align: left;
+    color: darkgrey;
+    font-size: 8pt;
+    letter-spacing: 1px;
+    /* text-shadow: 5px 3px 3px #C3C3C3; */
+}
+.Kor_title {
+    text-align: left;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 100px 10px 0px; /* 경계 구분선 */
+
+    font-size: 16pt;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
+}
+.sub_menu {
+    text-align: right;
+    margin-top: 10px;
+    padding: 5px 60px 5px 10px;
+}
+
+/*사이트맵 container*/
+.s_container {
+    margin-left: 20%;
+    margin-bottom: 15%;
+}
+.s_contents {
+    float: left;
+    margin-right: 30%;
+}
+/*사이트맵 목록번호*/
+.number {
+    color: #2a4476;
+    font-weight: bolder;
+    font-size: 70pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    text-shadow: 5px 3px 3px #c3c3c3;
+    opacity: 0.5;
+
+    float: right;
+}
+.Eng_title {
+    text-align: left;
+    color: darkgrey;
+    font-size: 8pt;
+    letter-spacing: 1px;
+    /* text-shadow: 5px 3px 3px #C3C3C3; */
+}
+.Kor_title {
+    text-align: left;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 100px 10px 0px; /* 경계 구분선 */
+
+    font-size: 16pt;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
+}
+.sub_menu {
+    text-align: right;
+    margin-top: 10px;
+    padding: 5px 60px 5px 10px;
+}

@@ -1,0 +1,175 @@
+/* SeeHouse.js */
+.getHouseContainer {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.getHouseHeaderContainer {
+    margin-left: 20%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.getHouseHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.getHouseHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+.getHouseTable {
+    width: 700px;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.getHouseTableTbodyTrTdSubTitle {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.getHouseTableTheadTr {
+}
+
+.getHouseTableTheadTrTd {
+    text-align: center;
+}
+
+.getHouseTableTheadTrTdAddress {
+    text-align: center;
+    width: 300px;
+}
+
+.getHouseTableTbodyTrTd {
+    text-align: center;
+}
+
+.getHouseTableTbodyTrTdText {
+}
+
+.getHouseTableTbodyTrTdClick {
+    cursor: pointer;
+    width: 120px;
+}
+
+.getHouseContainer .saveButtonContainer {
+    text-align: center;
+}
+
+.getHouseContainer .saveButtonContainer .modify {
+    font-size: 17px;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+.getHouseContainer .saveButtonContainer .delete {
+    font-size: 17px;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+/* AddHouse.js */
+.addHouseView {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.addHouseHeaderContainer {
+    margin-left: 30%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.addHouseHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.addAddressTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+.findAddressButtonWrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 38%;
+    width: 475px;
+}
+
+.popupDomContainer {
+    margin-top: 10px;
+}
+
+.addHouseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-top: 2%;
+    margin-left: 27%;
+}
+
+.addressFormContainer {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.addressFormTable {
+    width: 600px;
+}
+
+.addressFormLabel {
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.addressFormInputPostcode {
+    width: 80px;
+    justify-content: left;
+    align-items: center;
+}
+
+.addressFormInputAddress {
+    width: 400px;
+    justify-content: left;
+    align-items: center;
+}
+
+.popupPostCodeView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.submitButtonWrapper {
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}

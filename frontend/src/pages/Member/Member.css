@@ -1,0 +1,398 @@
+/* SeeMembers.js */
+.membersInfo {
+    margin-top: 0%;
+    margin-bottom: 4.5%;
+}
+
+.membersInfoHeaderContainer {
+    margin-left: 17%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.membersInfoHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.membersInfoHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+.membersInfo .tableContainer {
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.membersInfoThead {
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-collapse: collapse;
+    background-color: #e5e8ed;
+}
+
+.membersInfoThead > .membersInfoTheadTrTh {
+    width: 60px;
+}
+
+.membersInfoTheadTrTh {
+    width: 80px;
+    /* border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-collapse: collapse; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.membersInfoTbodyTr {
+    text-align: center;
+}
+
+.membersInfoTbodyTrTd {
+    width: 100px;
+    white-space: pre-wrap;
+}
+
+.membersInfoTrTdAdd {
+    height: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.membersInfo .buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+}
+
+.membersInfo .addButtonContainer {
+    height: 50px;
+}
+
+.membersInfo .addButton {
+    display: block;
+    text-align: center;
+    font-size: 250%;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+.membersInfo .buttonContainer .submitButtonContainer {
+    height: 50px;
+}
+
+.membersInfo .buttonContainer .submitButton {
+    display: block;
+    text-align: center;
+    font-size: 250%;
+    color: #2a4476;
+    cursor: pointer;
+}
+
+/* 월 평균 소득 */
+.incomeTableContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.incomeTable {
+    width: 400px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2a4476;
+}
+
+.incomeTableThead {
+    background-color: #e5e8ed;
+}
+
+.incomeTableTheadTr {
+}
+
+.incomeTableTheadTrTd {
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.incomeTableTbody {
+}
+
+.incomeTableTbodyTr {
+}
+
+.incomeTableTbodyTrTdPercent {
+    width: 50px;
+    background-color: #e5e8ed;
+    font-weight: bold;
+    text-align: center;
+    padding: 10;
+}
+
+.incomeTableTbodyTrTd {
+    width: 80px;
+    text-align: center;
+    padding: 8px;
+}
+
+/* AddMember.js */
+.addMemberContainer {
+    margin-top: -2%;
+    margin-bottom: 4.5%;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 17%;
+}
+
+.oneMenuSelect {
+    border-width: 0 3px 0 0;
+    border-color: #2a4476;
+    margin-right: 10px;
+    color: #2a4476;
+}
+
+.oneMenu {
+    border-width: 0;
+    border-color: #2a4476;
+    margin-right: 10px;
+    color: #e5e8ed;
+}
+
+.addMemberHeaderContainer {
+    margin-left: 30%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.addMemberHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.addMemberHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+.addMemberFormContainer {
+    /* margin-top: 3%;
+    margin-left: 10%; */
+}
+
+.addMemberFormTable {
+    display: flex;
+    width: 400px;
+    margin-top: 3%;
+    margin-left: 30%;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.addMemberFormTableTbody {
+    width: 100%;
+}
+
+.addMemberFormTableTbodyTrTdTooltip {
+    display: flex;
+    flex-direction: 'row';
+    width: fit-content;
+}
+
+.addMemberFormTableTbodyTrTdSubTitle {
+    text-align: right;
+    padding-right: 15px;
+    width: 150px;
+}
+
+.subTitle {
+    font-family: Noto Sans;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.incomeUnit {
+    margin-left: 5px;
+}
+
+.tooltipIcon {
+    font-weight: bold;
+    color: #2a4476;
+    margin-left: 5px;
+}
+
+.addMemberFormTableTbodyTrTdError {
+    color: red;
+    font-weight: 700;
+}
+
+.addMemberFormTableTbodyTrSpace {
+    height: 20px;
+}
+
+/* 저장버튼 */
+.membersInfo .saveButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.membersInfo .save {
+    width: 80px;
+    padding: 10px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #2a4476;
+    cursor: pointer;
+}
+
+/* ModMember.js */
+.modMemberContainer {
+    position: relative;
+    margin-top: -2%;
+    margin-bottom: 4.5%;
+}
+
+.modMemberHeaderContainer {
+    margin-left: 30%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modMemberHeaderContainer .heightBar {
+    width: 5px;
+    height: 35px;
+
+    background-color: #2a4476;
+    margin-right: 10px;
+}
+
+.modMemberHeaderContainer .listTitle {
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    color: #2a4476;
+}
+
+.modMemberFormContainer {
+    /* margin-top: 3%;
+    margin-left: 10%; */
+}
+
+.modMemberFormTable {
+    display: flex;
+    width: 400px;
+    margin-top: 3%;
+    margin-left: 30%;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.modMemberFormTableTbody {
+    width: 100%;
+}
+
+.modMemberFormTableTbodyTrTdTooltip {
+    display: flex;
+    flex-direction: 'row';
+    width: fit-content;
+}
+
+.modMemberFormTableTbodyTrTdSubTitle {
+    text-align: right;
+    padding-right: 15px;
+    width: 150px;
+}
+
+.subTitle {
+    font-family: Noto Sans;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.incomeUnit {
+    margin-left: 5px;
+}
+
+.tooltipIcon {
+    font-weight: bold;
+    color: #2a4476;
+    margin-left: 5px;
+}
+
+.modMemberFormTableTbodyTrSpace {
+    height: 20px;
+}
+
+/* 저장버튼 */
+.modMemberContainer .saveButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.modMemberContainer .save {
+    width: 80px;
+    padding: 10px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #2a4476;
+    cursor: pointer;
+}
+
+.modMemberContainer .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

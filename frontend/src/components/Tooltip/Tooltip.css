@@ -1,0 +1,36 @@
+.tooltipContainer {
+    position: relative;
+}
+
+@keyframes onOff {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.tooltipContainer:hover > .tooltip,
+.tooltipContainer:active > .tooltip {
+    display: block;
+    width: max-content;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 1px #e5e8ed;
+    animation: onOff 1s;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    text-align: left;
+    font-size: 12px;
+    padding: 3px;
+    z-index: 200;
+}
